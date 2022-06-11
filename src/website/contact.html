@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <style>
+      body {
+        background-color: rgb(246, 198, 108);
+        font-family: "Courier New", Courier, monospace;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        top: 0;
+        width: 100%;
+      }
+      li {
+        display: inline;
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111;
+      }
+      h1 {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+      h2 {
+        text-align: center;
+        color: #111;
+      }
+      img {
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+      }
+      .image-container {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      footer {
+        text-align: center;
+        padding: 3px;
+        background-color: #333;
+        color: white;
+      }
+      input[type="text"],
+      select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .form-style {
+        border-radius: 5px;
+        padding: 20px;
+        font-weight: 600;
+      }
+      @media screen and (max-width: 768px) {
+        .image-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <li>
+              <a>🏠 Home</a>
+            </li>
+            <li>
+              <a>🧾 Ramen Menu</a>
+            </li>
+            <li>
+              <a>🗨️ About</a>
+            </li>
+            <li style="float: right">
+              <a>🤙 Contact Us</a>
+            </li>
+            <li style="float: right">
+              <a>🔊 Reviews</a>
+            </li>
+          </ul>
+    </nav>
+    <h1>CONTACT US 📞 5434-1231-5357</h1>
+    <h2>🚪 Door Delivery Available</h2>
+    <div class="form-style">
+        <form >
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="add">Address</label>
+          <input type="text" id="add" name="add" placeholder="Enter your Address">
+          <label for="Contact">Contact Number</label>
+          <input type="text" id="Contact" name="Contact" placeholder="Enter your Contact Number">
+         
+        
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <footer>
+      <p>
+        Author: DEXTER<br />
+        <a href="mailto:hege@example.com">DEXTER@example.com</a>
+      </p>
+      <div>
+    </footer>
+  </body>
+</html>
